@@ -21,7 +21,7 @@ env:
   FUNCTION_NAME: from-github
   FUNCTION_RUNTIME: nodejs22
   FUNCTION_ENTRYPOINT: index.handler
-  FUNCTION_MEMORY: "128m"
+  FUNCTION_MEMORY: "128"
   FUNCTION_SOURCEROOT: .
   
 jobs:
