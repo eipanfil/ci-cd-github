@@ -17,7 +17,7 @@ on:
 
 env:
   FOLDER_ID: b1g681qpemb4t39as5qk
-  FUNCTION_NAME: from-github
+  FUNCTION_NAME: from-github-prod
   FUNCTION_RUNTIME: nodejs22
   FUNCTION_ENTRYPOINT: index.handler
   FUNCTION_MEMORY: 128 m
