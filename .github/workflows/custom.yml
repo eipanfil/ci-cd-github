@@ -9,7 +9,6 @@ on:
   workflow_dispatch:
 
 env:
-  #SA_ID: ajejocsfa1jj33b9g8sk
   FUNCTION_ID: <Cloud Function Id>
   FUNCTION_RUNTIME: nodejs22
   FUNCTION_ENTRYPOINT: index.handler
