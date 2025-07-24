@@ -68,7 +68,7 @@ jobs:
             "runtime": "${{env.FUNCTION_RUNTIME}}",
             "entrypoint": "${{env.FUNCTION_ENTRYPOINT}}", 
             "resources": { 
-              "memory": "256"
+              "memory": "${{env.FUNCTION_MEMORY}}"
             },
             "executionTimeout": "3s", 
             "content": '${FILE_BYTES}'
