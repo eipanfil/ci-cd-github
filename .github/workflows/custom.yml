@@ -9,10 +9,10 @@ on:
   workflow_dispatch:
 
 env:
-  FUNCTION_ID: <Cloud Function Id>
+  FUNCTION_ID: d4ee1bjias277ufrtdeo
   FUNCTION_RUNTIME: nodejs22
   FUNCTION_ENTRYPOINT: index.handler
-  FUNCTION_MEMORY: 128 m
+  FUNCTION_MEMORY: 128
   FUNCTION_SOURCEROOT: .
   
 jobs:
